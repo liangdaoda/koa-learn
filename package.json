@@ -1,0 +1,21 @@
+{
+  "name": "bdb-api",
+  "version": "1.0.0",
+  "description": "本地宝的后台接口",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "去pi饺子",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liangdaoda/bdb-api.git"
+  },
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "mysql": "^2.16.0"
+  }
+}
